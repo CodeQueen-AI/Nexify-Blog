@@ -39,13 +39,13 @@ export default function NewBlog() {
   }, []);
 
   return (
-    <div className={`w-full ${interTight.className}`}>
-      <section className="w-full bg-gradient-to-r from-[#dbeafe] via-[#ccfbf1] to-[#f3e8ff] py-26 text-center">
+    <div className={`w-full ${interTight.className} bg-gradient-to-r from-[#dbeafe] via-[#ccfbf1] to-[#f3e8ff]`}>
+      <section className="w-full py-26 text-center">
         <h2 className="text-5xl text-[#13164B] mb-4 font-medium">
           Features
         </h2>
         <p className="max-w-2xl mx-auto text-sm text-gray-700 leading-relaxed">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit.
           Ut elit tellus, luctus nec <br /> ullamcorper mattis, pulvinar dapibus leo.
         </p>
       </section>
@@ -53,7 +53,7 @@ export default function NewBlog() {
       {blogs.length === 0 ? (
         <p className="text-center text-gray-500">No blogs found.</p>
       ) : (
-        <div className="space-y-8 mt-12">
+        <div className="space-y-8 mt-12 ">
           {blogs.map((blog: Blog) => (
             <div key={blog.id} className="text-center">
               {/* Blog Title */}
