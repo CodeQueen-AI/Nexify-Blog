@@ -10,15 +10,15 @@ import FAQ from './components/FAQs'
 export default function page() {
   return (
     <div>
-    <Home/>
-    <Logos/>
-    <Services/>
-    <Page1/>
-    <Page2/>
-    <Features/>
-    <Plan/>
-    <About/>
-    <FAQ/>
+      <Home />
+      <Logos />
+      <Services />
+      <Page1 />
+      <Page2 />
+      <Features />
+      <Plan />
+      <About />
+      <FAQ />
     </div>
   );
 }

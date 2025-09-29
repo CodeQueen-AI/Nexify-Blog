@@ -18,7 +18,7 @@ export default function HomePage() {
     <main className="w-full">
       <section className="w-full bg-gradient-to-r from-[#E9FBFF] to-[#DBFFF9] py-16 sm:py-20 text-center px-4">
         <div className="flex justify-center -mt-6 sm:-mt-10">
-          <span className="bg-transparent px-3 sm:px-4 py-1.5 sm:py-2 rounded-full text-xs sm:text-sm font-medium shadow-sm border border-gray-300">
+          <span className="bg-transparent px-3 sm:px-4 py-1.5 sm:py-2 rounded-full text-xs text-black sm:text-sm font-medium shadow-sm border border-gray-300">
             🎉 New update! Get our latest insights.
           </span>
         </div>
