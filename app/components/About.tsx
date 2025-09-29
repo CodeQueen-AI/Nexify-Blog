@@ -56,7 +56,7 @@ export default function AboutPage() {
             </p>
             <div className="flex items-center gap-3">
               <Image
-                src="/user5.jpg"
+                src="/User5.jpg"
                 alt="David Chen"
                 width={40}
                 height={40}
@@ -80,7 +80,7 @@ export default function AboutPage() {
             </p>
             <div className="flex items-center gap-3">
               <Image
-                src="/user6.jpg"
+                src="/User6.jpg"
                 alt="Laura Evans"
                 width={40}
                 height={40}
@@ -105,7 +105,7 @@ export default function AboutPage() {
             </p>
             <div className="flex items-center gap-3">
               <Image
-                src="/user7.jpg"
+                src="/User7.jpg"
                 alt="Anna Rodriguez"
                 width={40}
                 height={40}
@@ -127,7 +127,7 @@ export default function AboutPage() {
             </p>
             <div className="flex items-center gap-3">
               <Image
-                src="/user8.jpg"
+                src="/User8.jpg"
                 alt="Tom Williams"
                 width={40}
                 height={40}
@@ -149,7 +149,7 @@ export default function AboutPage() {
             </p>
             <div className="flex items-center gap-3">
               <Image
-                src="/user9.jpg"
+                src="/User9.jpg"
                 alt="Tom Williams"
                 width={40}
                 height={40}
@@ -171,7 +171,7 @@ export default function AboutPage() {
             </p>
             <div className="flex items-center gap-3">
               <Image
-                src="/user10.jpg"
+                src="/User10.jpg"
                 alt="Tom Williams"
                 width={40}
                 height={40}
