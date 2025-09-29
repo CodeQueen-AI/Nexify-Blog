@@ -15,12 +15,12 @@ export default function Footer() {
     <footer className={`bg-[#161C52] text-gray-300 ${interTight.className}`}>
       <div className="max-w-7xl mx-auto px-6 py-12 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
         <div className="text-center md:text-left">
-          <Image src="/Footer logo.png" alt="Nexify Logo"width={50} height={50} className="w-42 mb-4 mx-auto md:mx-0" />
+          <Image src="/Footer logo.png" alt="Nexify Logo"width={400} height={300} className="w-42 mb-4 mx-auto md:mx-0" />
           <p className="text-sm leading-relaxed">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit 
             tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
           </p>
-          <div className="flex flex-col sm:flex-row mt-5 items-center gap-3">
+          <div className="flex flex-col sm:flex-row mt-10 items-center gap-3">
             <input
               type="email"
               placeholder="Your Email Address"
