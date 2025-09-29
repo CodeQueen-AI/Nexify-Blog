@@ -16,7 +16,7 @@ export default function Partners() {
             {[1, 2, 3, 4, 5, 6, 1, 2, 3, 4, 5, 6].map((num, i) => (
               <div key={i} className="flex-shrink-0 w-24 sm:w-32 md:w-44 lg:w-52">
                 <Image
-                  src={`/logo${num}.png`}
+                  src={`/Logo${num}.png`}
                   alt={`Company ${num}`}
                   width={200}
                   height={70}
