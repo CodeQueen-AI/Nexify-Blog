@@ -6,8 +6,8 @@ const interTight = Inter_Tight({ subsets: ["latin"], weight: ["400", "500", "600
 
 export default function ContactPage() {
   return (
-    <div className={interTight.className}>
-      <div className="w-full bg-gradient-to-r from-[#dbeafe] via-[#ccfbf1] to-[#f3e8ff] py-20 text-center">
+    <div className={`bg-gradient-to-r from-[#dbeafe] via-[#ccfbf1] to-[#f3e8ff] ${interTight.className}`}>
+      <div className="w-full py-20 text-center">
         <h2 className="text-5xl text-[#13164B] mb-4 font-medium">
           Lets Get In Touch
         </h2>
