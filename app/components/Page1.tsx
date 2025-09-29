@@ -8,16 +8,16 @@ const instrumentSerif = Instrument_Serif({ subsets: ["latin"], weight: ["400"], 
 
 export default function AnalyticsSection2() {
   return (
-    <section className={`py-20 px-6 ${interTight.className}`}>
-      <div className="max-w-7xl mx-auto grid md:grid-cols-2 items-center gap-12">
+    <section className={`py-20 bg-sky-100 px-6 ${interTight.className}`}>
+      <div className="max-w-7xl  mx-auto grid md:grid-cols-2 items-center gap-12">
         <div className="flex justify-center">
-          <div className="bg-sky-100 p-6 rounded-2xl shadow-md">
+          <div className="bg-sky-100 p-6 rounded-2xl shadow-2xl">
             <Image
               src="/Page1.png"
               alt="Dashboard Preview"
               width={500}
               height={350}
-              className="rounded-lg object-contain"/>
+              className="rounded-lg object-contain" />
           </div>
         </div>
         <div>
