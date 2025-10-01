@@ -17,7 +17,6 @@ export default function TeamSection() {
   return (
     <div>
       <section className="w-full py-20 bg-white text-center">
-        {/*Heading */}
         <div className="max-w-2xl mx-auto mb-14">
           <h2 className={`${interTight.className} text-5xl font-medium text-blue-950`}>
             The People Behind{" "}
@@ -97,3 +96,4 @@ export default function TeamSection() {
     </div>
   );
 }
+
